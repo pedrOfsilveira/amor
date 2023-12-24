@@ -1,23 +1,9 @@
-const botaoEsquerdo = document.querySelector('.botao-esquerda');
 const botaoDireito = document.querySelector('.botao-direita');
 
 let indexAtivo = 0;
 
 const grupos = document.getElementsByClassName('card-wrapper');
 
-botaoEsquerdo.addEventListener('click', () => {
-  botaoEsquerdo.classList.add('jello');
-
-  moveUltima();
-
-  setTimeout(() => {
-    botaoEsquerdo.classList.remove('jello');
-  }, 600);
-
-  setTimeout(() => {
-    botaoEsquerdo.removeAttribute('disabled');
-  }, 2000);
-});
 botaoDireito.addEventListener('click', () => {
   botaoDireito.classList.add('jello');
 
