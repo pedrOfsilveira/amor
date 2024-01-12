@@ -4,6 +4,9 @@ body {
   overflow: hidden;
 }
 
+* {
+  user-select: none;
+}
 .gira {
   display: none;
   color: #ff1c00;
@@ -123,6 +126,7 @@ body {
 }
 
 .foto {
+  backface-visibility: hidden;
   width: 100%;
   aspect-ratio: 1 / 1;
 }
@@ -170,31 +174,13 @@ button {
   color: #ff1c00;
 }
 
-.jello {
-  animation: jello-horizontal 0.6s forwards;
-}
-
 .card-wrapper[data-status='unknown'] {
   transform: scale(0);
 }
 
-/* .card-wrapper[data-status='after'] .card-1 {
-  animation: leaving-1 2s linear forwards;
-  transition: opacity 4s;
-  opacity: 0;
-} */
 .card-wrapper[data-status='after'] {
   animation: leaving 2s cubic-bezier(0.14, 0.87, 0.57, 1) forwards;
 }
-
-/* .card-wrapper[data-status='after'] .card-2 {
-  animation: leaving-2 3.5s linear forwards;
-  transition: opacity 7s;
-  opacity: 0;
-}
-.card-wrapper[data-status='after'] .card-3 {
-  animation: leaving-3 5s linear forwards;
-} */
 
 .card-wrapper[data-status='active'] {
   opacity: 1;
@@ -251,40 +237,4 @@ button {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFFW-uXX5rrJOMqi9KwPtsG5aGcu9zI8mAg&usqp=CAU);
   background-size: cover;
   background-position: center;
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 100000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-}
-
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
 }
