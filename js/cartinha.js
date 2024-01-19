@@ -62,6 +62,12 @@ document.addEventListener('DOMContentLoaded', function (event) {
     'De como eu amo toda vez que eu te faço rir por algo bobo.',
     'Das vezes que a gente fez comida e docinhos juntos.',
     'Das vezes que eu passei o intervalo contigo no IF, comendo salgadinhos da Pimpão',
+    'Dos momentos em que tu sentiu qualquer incomodo e eu quase morri de pena',
+    'Do teu olhar, sorrindo',
+    'De como eu te amo até quando eu tô bravo ou chateado',
+    'De como teu carinho cura tudo que eu possa sentir',
+    'De como tu melhora todos os dias a minha vida em maneiras que tu nem percebe',
+    'De como eu te amo.',
   ];
 
   function typeWriter(text, i, fnCallback) {
@@ -106,6 +112,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     'minha xerosa',
     'meu amogus peitudo',
     'meu bem',
+    'minha ESMERALDA',
     'minha gostosa',
     'minha valoranter',
     'meu dengo',
@@ -115,6 +122,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
     'meu Brimstone',
     'amor da minha vida',
     'meu neném',
+    'minha flowers',
     'minha esposa',
   ];
 
