@@ -9,6 +9,12 @@ body {
   background-attachment: fixed;
 }
 
+.textinho {
+  padding: 1rem;
+  background-color: #282d6c;
+  border-radius: 0.75rem;
+  margin-bottom: 50px;
+}
 .overflow {
   overflow: hidden;
 }
@@ -39,13 +45,15 @@ body {
   margin-bottom: 50px;
 }
 
-.musica > p {
-  width: 50%;
-
+p {
   font-size: 1.5em;
   font-weight: bold;
 
   color: #e0e1f4;
+}
+
+.musica > p {
+  width: 50%;
 }
 
 .right {
@@ -75,4 +83,8 @@ body {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.play {
+  margin-top: 1rem;
 }
